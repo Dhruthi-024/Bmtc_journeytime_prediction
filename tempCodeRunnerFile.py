@@ -1,0 +1,1 @@
+df["distance_km"] = df["distance"].str.replace(" KM", "").astype(float)
